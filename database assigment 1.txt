@@ -1,0 +1,6 @@
+Create database task;
+
+Create table tugaspertama(ID int auto_increment primary key, 
+Name varchar(20), Email varchar(30), Address varchar(100), 
+Phone varchar(15), City varchar(30), Country varchar(30), 
+Education varchar(50), Photo blob, Date Datetime default now());
